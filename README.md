@@ -38,7 +38,7 @@ From the interactive server panel, you can use the following core commands:
 2. Generate and Compile Payloads
 Use the builder script to compile a target-specific executable payload (Windows or Linux):
 ```bash
-python builder.py <LHOST> <LPORT> <windows/linux> <payload_name>
+python generator.py <LHOST> <LPORT> <windows/linux> <payload_name>
 ```
 
 ## Disclaimer

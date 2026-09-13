@@ -41,5 +41,5 @@ Use the builder script to compile a target-specific executable payload (Windows 
 python builder.py <LHOST> <LPORT> <windows/linux> <payload_name>
 ```
 
-Disclaimer
+## Disclaimer
 This tool is created strictly for educational purposes, authorized security testing, and administrative management of systems you own or have explicit legal permission to access. The author assumes no liability for misuse.

@@ -27,16 +27,19 @@ Run the central server script, specifying your local listening IP and port:
 
 ```bash
 python control.py <LHOST> <LPORT>
+```
 
 From the interactive server panel, you can use the following core commands:
 
-sessions – List all active connected agent sessions
-interact <ID> – Switch control to a specific agent session
-quit – Shutdown the server and close all connections
+- sessions – List all active connected agent sessions
+- interact <ID> – Switch control to a specific agent session
+- quit – Shutdown the server and close all connections
 
 2. Generate and Compile Payloads
 Use the builder script to compile a target-specific executable payload (Windows or Linux):
+```bash
 python builder.py <LHOST> <LPORT> <windows/linux> <payload_name>
+```
 
 Disclaimer
 This tool is created strictly for educational purposes, authorized security testing, and administrative management of systems you own or have explicit legal permission to access. The author assumes no liability for misuse.

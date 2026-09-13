@@ -1,6 +1,6 @@
 # Python Multi-Client C2 & Remote Administration Tool
 
-A lightweight, multi-threaded command and control (C2) framework and payload builder written in Python. Designed for remote system administration, monitoring, and network management tasks.
+A lightweight, multi-threaded command and control (C2) framework and payload builder written in Python.
 
 ## Features
 

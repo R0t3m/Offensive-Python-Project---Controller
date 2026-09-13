@@ -6,7 +6,7 @@ A lightweight, multi-threaded command and control (C2) framework and payload bui
 
 - **Multi-Client Architecture** – Handles multiple concurrent agent sessions from a centralized server panel.
 - **Integrated HTTP Server** – Built-in lightweight HTTP server for automatic payload delivery and staging.
-- **Interactive Shell** – Execute native shell commands (`cmd` / `powershell` on Windows, `bash` / `sh` on Linux) with proper encoding handling (`cp1255`, `utf-8`).
+- **Interactive Shell** – Execute native shell commands.
 - **Built-in Modules**:
   - **Keylogger** – Real-time keystroke capturing and buffer dumping (`pynput`).
   - **Screen Capture** – Remote screenshot utility saved directly to the server side (`pyautogui`).

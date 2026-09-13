@@ -188,8 +188,7 @@ def interact_session(session_id):
                 
                 print("[*] Sending deployment command to agent...")
                 conn.sendall(deploy_cmd.encode())
-                
-                # קבלת תגובה מהפעלה
+
                 buffer = bytearray()
                 try:
                     conn.settimeout(5.0)

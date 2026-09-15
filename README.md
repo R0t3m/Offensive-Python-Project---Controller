@@ -1,4 +1,4 @@
-# Python Multi-Client C2 & Remote Administration Tool
+# Python Multi-Client C2
 
 A lightweight, multi-threaded command and control (C2) framework and payload builder written in Python.
 
